@@ -28,7 +28,6 @@ body{
   line-height: 78px;
   letter-spacing: 0px;
   text-align: left;
-  margin-top: 217px;
   margin-left: 121px;
   width: 788px;
 }
@@ -80,32 +79,27 @@ body{
   gap: 32px;
   padding-top: 128px;
   box-sizing: border-box;
-}
-
-.games__item{
+  &__item{
     display: flex;
     align-items: flex-end;
     width: 379px;
     height: 300px;
     padding: 32px;
     box-sizing: border-box;
+    &_1{
+      background-image: url(img/item_1.png);
+    }
+    &_2 {
+      background-image: url(img/item_2.png);
+    }
+    &_3 {
+      background-image: url(img/item_3.png);
+    }
 }
-
-.games__item_1 {
-  background-image: url(img/item_1.png);
-}
-
-.games__item_2 {
-  background-image: url(img/item_2.png);
-}
-
-.games__item_3 {
-  background-image: url(img/item_3.png);
-}
-
-.games__title {
+&__title {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+}
 }

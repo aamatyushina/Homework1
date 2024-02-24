@@ -28,7 +28,6 @@ body {
   line-height: 78px;
   letter-spacing: 0px;
   text-align: left;
-  margin-top: 217px;
   margin-left: 121px;
   width: 788px;
 }
@@ -81,7 +80,6 @@ body {
   padding-top: 128px;
   box-sizing: border-box;
 }
-
 .games__item {
   display: flex;
   align-items: flex-end;
@@ -90,19 +88,15 @@ body {
   padding: 32px;
   box-sizing: border-box;
 }
-
 .games__item_1 {
   background-image: url(img/item_1.png);
 }
-
 .games__item_2 {
   background-image: url(img/item_2.png);
 }
-
 .games__item_3 {
   background-image: url(img/item_3.png);
 }
-
 .games__title {
   color: #fff;
   font-size: 24px;
