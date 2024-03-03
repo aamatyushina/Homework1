@@ -21,12 +21,12 @@ body{
 }
 
 .title {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 700;
   line-height: 78px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
   margin-left: 121px;
   width: 788px;
@@ -34,11 +34,11 @@ body{
 
 .top__text {
   color: rgb(255, 255, 255);
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 32px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
   margin-left: 121px;
   margin-top: 32px;
@@ -50,7 +50,6 @@ body{
 }
 
 .top__button {
-  border-radius: 30px;
   background: rgb(156, 3, 50);
   border-radius: 20px;
   width: 235px;
@@ -58,13 +57,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   margin-left: 121px;
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
   margin-top: 44px;
 }
